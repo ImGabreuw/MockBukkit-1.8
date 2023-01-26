@@ -39,8 +39,8 @@ publishing {
             name = "GitHubPackages"
             url = "https://maven.pkg.github.com/ImGabreuw/MockBukkit-1.8"
             credentials {
-                username = 'ImGabreuw'//System.getenv("GITHUB_ACTOR")
-                password = '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' //System.getenv("GITHUB_TOKEN")
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }

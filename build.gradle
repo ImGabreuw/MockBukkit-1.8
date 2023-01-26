@@ -37,7 +37,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = "https://maven.pkg.github.com/ImGabreuw/MockBukkit-1.8"
+            url = "https://maven.pkg.github.com/ImGabreuw/mock-bukkit-1.8"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
